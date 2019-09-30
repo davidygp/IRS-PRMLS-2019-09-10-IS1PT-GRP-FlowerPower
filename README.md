@@ -18,16 +18,30 @@ The team has chosen to work on the problem of differentiating between flowers an
 See Pattern Recognition CA2 User Guide
 
 # SECTION 5 : PROJECT REPORT / PAPER
-https://github.com/davidygp/IRS-PRUPR-2019-06-22-IS1PT-GRP-CyberSecurity-NSL-KDD/ProjectReport/Report.pdf
+https://github.com/davidygp/IRS-PRMLS-2019-09-10-IS1PT-GRP-FlowerPower/ProjectReport/Report.pdf
 
 Recommended Sections for Project Report / Paper:
-- Executive Summary
-- Introduction into Dataset
-- Description of Dataset
-- Data Processing
-- Results
-- Limitations of datasets 
+- Abstract
+- Environment Setup
+- Data Set
+- Baseline Model
+- Approach Towards VGG16 Structure
+- Approach Towards AlexNet Structure
+- Approach Towards ResNet Structure
+- Approach Towards Inception V4 Structure
+- Approach Towards Inception-ResNet V2 Structure
+- Approach Towards Squeeze Excitation Inception-ResNet V2 Structure
+- Combining various Neural Network Architectures
 - Conclusion
-- Appendix
+- References
 
 # SECTION 6 : MISCELLANEOUS
+CNN Base Models
+intermediary_codes
+intermediary_htmls
+
+model_saves
+- Saved hdf5 weight files of the best models with their accuracy values
+
+readings
+- Some of the readings referenced in the project
