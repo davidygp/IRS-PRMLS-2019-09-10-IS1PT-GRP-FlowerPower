@@ -16,34 +16,7 @@ FlowerPower
 
 
 # SECTION 4 : USER GUIDE
-[ 1 ] To run using Jupyter Notebook with tensorflow-gpu
-
-$ git clone https://github.com/davidygp/IRS-PRMLS-2019-09-10-IS1PT-GRP-FlowerPower
-
-  (Ensure Anaconda is installed)
-  
-$ conda create --name tf-gpu
-
-$ conda activate tf-gpu
-
-(tf-gpu) $ conda install -c aaronzs tensorflow-gpu
-
-(tf-gpu) $ conda install -c anaconda cudatoolkit==9.0
-
-(tf-gpu) $ conda install -c anaconda cudnn==7.1.4
-
-(tf-gpu) $ cd ./IRS-PRMLS-2019-09-10-IS1PT-GRP-FlowerPower/
-
-(tf-gpu) $ jupyter notebook
-
-(open up Download-ImageNet.ipynb - To re-download the iamges)
-
-(open up Reshape_Resize_Images.ipynb - To re-size the images)
-
-To re-create train/test set Input: resized images in .npz format, Output=train/test split in .npz format
-(open up Create_Train_Test_Set.ipynb)
-  
-(open up Image_Classification_Neural_Network_Final.ipynb - To run Neural Network models)
+See Pattern Recognition CA2 User Guide
 
 # SECTION 5 : PROJECT REPORT / PAPER
 https://github.com/davidygp/IRS-PRUPR-2019-06-22-IS1PT-GRP-CyberSecurity-NSL-KDD/ProjectReport/Report.pdf
@@ -59,20 +32,3 @@ Recommended Sections for Project Report / Paper:
 - Appendix
 
 # SECTION 6 : MISCELLANEOUS
-Attack Types.csv
-- The Attack Types and the corresponding Attack Category
-
-Field Names.csv
-- The Field Names and the corresponding Data Type (continuous/ symbolic)
-
-KDDTrain+.txt
-- The NSL-KDD Train Dataset
-
-KDDTest+.txt
-- The NSL-KDD Test Dataset
-
-NSL-KDD-Multiclass_Classification.html/NSL-KDD-Multiple_Binaryclass_Classification.html
-- HTML saved files of the jupyter notebook outputs
-
-Cyber Dataset.csv/Cyber Dataset.hdf5
-- Artifacts of the NN Training Model
