@@ -18,7 +18,7 @@ The team has chosen to work on the problem of differentiating between flowers an
 See Pattern Recognition CA2 User Guide
 
 # SECTION 5 : PROJECT REPORT / PAPER
-https://github.com/davidygp/IRS-PRMLS-2019-09-10-IS1PT-GRP-FlowerPower/ProjectReport/Report.pdf
+https://github.com/davidygp/IRS-PRMLS-2019-09-10-IS1PT-GRP-FlowerPower/blob/master/ProjectReport/Report.pdf
 
 Recommended Sections for Project Report / Paper:
 - Abstract
