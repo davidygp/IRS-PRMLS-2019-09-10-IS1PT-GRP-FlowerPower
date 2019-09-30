@@ -3,8 +3,7 @@ FlowerPower
 
 
 # SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-
-...
+The team has chosen to work on the problem of differentiating between flowers and non-flowers type images, with the goal of training a model that can classify at a high accuracy on  whether an input image is a flower or non-flower type. In order to better measure the performance of each model, we created a baseline model that was able to get 85% accuracy rate. After evaluating the baseline model we looked at the State-of-the-Art (SOTA) models for similar problem sets (such as CIFAR 10) and attempted to understand and subsequently implement the architectures suggested. We conducted a series of experiments following popular architectures - Deep CNN, VGG, AlexNet, ResNet, Inception V4, Inception-ResNet V2 and SE Inception-ResNet V2. All images (Data_V1 and Data_V2) used were scraped from the Internet, and were subsequently resized and stored in .npz format for different models to load. After rounds of parameter tuning, Deep CNN, VGG and AlexNet were able to reach around 90-92% accuracy using Data_V1. In comparison, ResNet, Inception V4, Inception-ResNet V2 and SE Inception-ResNet V2 reached around 94-95% using Data_V2. In the end, we put all the results together and managed to get a further optimal model using a voting approach.
 
 # SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 | Official Full Name | Student ID (MTech Applicable)| Work Items (Who Did What) | Email (Optional) |
