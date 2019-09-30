@@ -37,8 +37,13 @@ Recommended Sections for Project Report / Paper:
 
 # SECTION 6 : MISCELLANEOUS
 CNN Base Models
+- CNN Base Model codes and html save files
+
 intermediary_codes
+- Intermediary codes
+
 intermediary_htmls
+- Intermediary HTML save files
 
 model_saves
 - Saved hdf5 weight files of the best models with their accuracy values
